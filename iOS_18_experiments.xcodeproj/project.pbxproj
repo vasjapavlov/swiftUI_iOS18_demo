@@ -11,16 +11,17 @@
 		F1DEAB192C52927600708B5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DEAB182C52927600708B5F /* ContentView.swift */; };
 		F1DEAB1B2C52927700708B5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DEAB1A2C52927700708B5F /* Assets.xcassets */; };
 		F1DEAB1E2C52927700708B5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DEAB1D2C52927700708B5F /* Preview Assets.xcassets */; };
-		F1DEAB272C5292B600708B5F /* CustomTextAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DEAB262C5292B000708B5F /* CustomTextAnimationsView.swift */; };
+		F1DEAB272C5292B600708B5F /* TextRendererView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DEAB262C5292B000708B5F /* TextRendererView.swift */; };
 		F1DEAB292C529C5100708B5F /* ZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DEAB282C529C4E00708B5F /* ZoomView.swift */; };
 		F1DEAB2B2C529D9700708B5F /* MixedColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DEAB2A2C529D8C00708B5F /* MixedColors.swift */; };
 		F1DEAB2D2C52A18B00708B5F /* MeshGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DEAB2C2C52A18800708B5F /* MeshGradient.swift */; };
 		F1DEAB2F2C52A29500708B5F /* ViewSizeAndPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DEAB2E2C52A29100708B5F /* ViewSizeAndPosition.swift */; };
 		F1F392CB2C53C1D8008C2519 /* ScrollToPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F392CA2C53C1D0008C2519 /* ScrollToPosition.swift */; };
 		F1F392CD2C53C250008C2519 /* ScrollMoving.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F392CC2C53C24D008C2519 /* ScrollMoving.swift */; };
-		F1F392CF2C53C32D008C2519 /* Subviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F392CE2C53C320008C2519 /* Subviews.swift */; };
+		F1F392CF2C53C32D008C2519 /* SubviewsManipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F392CE2C53C320008C2519 /* SubviewsManipulation.swift */; };
 		F1F392D12C53C617008C2519 /* PreviewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F392D02C53C612008C2519 /* PreviewState.swift */; };
 		F1F392D32C53C874008C2519 /* SFSymbol animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F392D22C53C872008C2519 /* SFSymbol animations.swift */; };
+		F1F392D52C53D80E008C2519 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F392D42C53D80C008C2519 /* ContactsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,16 +30,17 @@
 		F1DEAB182C52927600708B5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F1DEAB1A2C52927700708B5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1DEAB1D2C52927700708B5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F1DEAB262C5292B000708B5F /* CustomTextAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextAnimationsView.swift; sourceTree = "<group>"; };
+		F1DEAB262C5292B000708B5F /* TextRendererView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRendererView.swift; sourceTree = "<group>"; };
 		F1DEAB282C529C4E00708B5F /* ZoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomView.swift; sourceTree = "<group>"; };
 		F1DEAB2A2C529D8C00708B5F /* MixedColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixedColors.swift; sourceTree = "<group>"; };
 		F1DEAB2C2C52A18800708B5F /* MeshGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradient.swift; sourceTree = "<group>"; };
 		F1DEAB2E2C52A29100708B5F /* ViewSizeAndPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSizeAndPosition.swift; sourceTree = "<group>"; };
 		F1F392CA2C53C1D0008C2519 /* ScrollToPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollToPosition.swift; sourceTree = "<group>"; };
 		F1F392CC2C53C24D008C2519 /* ScrollMoving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollMoving.swift; sourceTree = "<group>"; };
-		F1F392CE2C53C320008C2519 /* Subviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subviews.swift; sourceTree = "<group>"; };
+		F1F392CE2C53C320008C2519 /* SubviewsManipulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubviewsManipulation.swift; sourceTree = "<group>"; };
 		F1F392D02C53C612008C2519 /* PreviewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewState.swift; sourceTree = "<group>"; };
 		F1F392D22C53C872008C2519 /* SFSymbol animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol animations.swift"; sourceTree = "<group>"; };
+		F1F392D42C53D80C008C2519 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,16 +92,17 @@
 		F1DEAB242C52928700708B5F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F1F392D22C53C872008C2519 /* SFSymbol animations.swift */,
-				F1F392D02C53C612008C2519 /* PreviewState.swift */,
-				F1F392CE2C53C320008C2519 /* Subviews.swift */,
-				F1F392CC2C53C24D008C2519 /* ScrollMoving.swift */,
-				F1F392CA2C53C1D0008C2519 /* ScrollToPosition.swift */,
-				F1DEAB2E2C52A29100708B5F /* ViewSizeAndPosition.swift */,
-				F1DEAB2C2C52A18800708B5F /* MeshGradient.swift */,
-				F1DEAB2A2C529D8C00708B5F /* MixedColors.swift */,
+				F1DEAB262C5292B000708B5F /* TextRendererView.swift */,
 				F1DEAB282C529C4E00708B5F /* ZoomView.swift */,
-				F1DEAB262C5292B000708B5F /* CustomTextAnimationsView.swift */,
+				F1DEAB2A2C529D8C00708B5F /* MixedColors.swift */,
+				F1DEAB2C2C52A18800708B5F /* MeshGradient.swift */,
+				F1DEAB2E2C52A29100708B5F /* ViewSizeAndPosition.swift */,
+				F1F392CA2C53C1D0008C2519 /* ScrollToPosition.swift */,
+				F1F392CC2C53C24D008C2519 /* ScrollMoving.swift */,
+				F1F392CE2C53C320008C2519 /* SubviewsManipulation.swift */,
+				F1F392D02C53C612008C2519 /* PreviewState.swift */,
+				F1F392D22C53C872008C2519 /* SFSymbol animations.swift */,
+				F1F392D42C53D80C008C2519 /* ContactsView.swift */,
 				F1DEAB182C52927600708B5F /* ContentView.swift */,
 			);
 			path = Views;
@@ -188,11 +191,12 @@
 				F1DEAB192C52927600708B5F /* ContentView.swift in Sources */,
 				F1DEAB2D2C52A18B00708B5F /* MeshGradient.swift in Sources */,
 				F1DEAB172C52927600708B5F /* iOS_18_experimentsApp.swift in Sources */,
-				F1F392CF2C53C32D008C2519 /* Subviews.swift in Sources */,
+				F1F392CF2C53C32D008C2519 /* SubviewsManipulation.swift in Sources */,
 				F1F392D32C53C874008C2519 /* SFSymbol animations.swift in Sources */,
-				F1DEAB272C5292B600708B5F /* CustomTextAnimationsView.swift in Sources */,
+				F1DEAB272C5292B600708B5F /* TextRendererView.swift in Sources */,
 				F1DEAB292C529C5100708B5F /* ZoomView.swift in Sources */,
 				F1F392D12C53C617008C2519 /* PreviewState.swift in Sources */,
+				F1F392D52C53D80E008C2519 /* ContactsView.swift in Sources */,
 				F1F392CD2C53C250008C2519 /* ScrollMoving.swift in Sources */,
 				F1DEAB2F2C52A29500708B5F /* ViewSizeAndPosition.swift in Sources */,
 			);
@@ -330,7 +334,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iOS_18_experiments/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSContactsUsageDescription = "I need your contacts";
+				INFOPLIST_KEY_NSContactsUsageDescription = "I need your contact";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -359,7 +363,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iOS_18_experiments/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSContactsUsageDescription = "I need your contacts";
+				INFOPLIST_KEY_NSContactsUsageDescription = "I need your contact";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

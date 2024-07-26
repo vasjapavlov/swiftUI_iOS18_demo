@@ -18,6 +18,7 @@ enum Item: Hashable, CaseIterable {
     case subviewsManipulation
     case previewDemo
     case sfSymbolAnimations
+//    case contactsButton
 
     var title: String {
         switch self {
@@ -31,6 +32,7 @@ enum Item: Hashable, CaseIterable {
         case .subviewsManipulation: return "Subviews manipulation"
         case .previewDemo: return "Preview demo"
         case .sfSymbolAnimations: return "SFSymbol animations"
+//        case .contactsButton: return "Contacts Access Button"
         }
     }
 
@@ -46,20 +48,26 @@ enum Item: Hashable, CaseIterable {
         case .subviewsManipulation: return "square.on.square"
         case .previewDemo: return "viewfinder.circle"
         case .sfSymbolAnimations: return "lizard"
+//        case .contactsButton: return "person.crop.circle.fill.badge.plus"
         }
     }
 }
 
 struct ContentView: View {
     @State var text: String = ""
+    @State var presentContacts = false
     var body: some View {
         NavigationStack {
-            List(Item.allCases, id: \.self) { item in
-                NavigationLink(value: item) {
-                    Cell(item.title, item.icon) {
-                        print("da")
+            VStack {
+                List(Item.allCases, id: \.self) { item in
+                    NavigationLink(value: item) {
+                        Cell(item.title, item.icon) {
+                        }
                     }
                 }
+                Cell("ContactsButton", "person.crop.circle.fill.badge.plus", action: {
+                    presentContacts = true
+                })
             }
             .navigationDestination(for: Item.self, destination: { item in
                 switch item {
@@ -84,6 +92,9 @@ struct ContentView: View {
                 case .sfSymbolAnimations:
                     SFSymbolAnimationsView()
                 }
+            })
+            .sheet(isPresented: $presentContacts, content: {
+                ContactsView()
             })
             /*
              .navigationDestination(for: String.self, destination: { discipline in
